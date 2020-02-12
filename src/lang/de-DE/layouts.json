@@ -8,10 +8,10 @@
       "moreEvents": "und {amount} weitere...",
       "noEvents": "Keine Ereignisse bisher!",
       "date": "Datum",
-      "datetime": "Datetime",
+      "datetime": "Datum & Uhrzeit",
       "time": "Time",
       "title": "Titel",
-      "color": "Color"
+      "color": "Farbe"
     },
     "cards": {
       "cards": "Karten",
@@ -35,7 +35,7 @@
       "date": "Datum",
       "content": "Inhalt",
       "title": "Titel",
-      "color": "Color"
+      "color": "Farbe"
     }
   }
 }
