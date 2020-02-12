@@ -130,14 +130,14 @@
 			"relative": "Relative Datumsanzeige",
 			"relative_comment": "Datum relativ anzeigen (z.B. vor 50 Minuten)",
 			"now": "You are creating this now",
-			"unknown": "Unknown"
+			"unknown": "Unbekannt"
 		},
 		"datetime-updated": {
-			"datetime_updated": "Datetime Updated",
+			"datetime_updated": "Aktualisierte Datumszeit",
 			"relative": "Relative Datumsanzeige",
 			"relative_comment": "Datum relativ anzeigen (z.B. vor 50 Minuten)",
 			"now": "You are creating this now",
-			"unknown": "Unknown"
+			"unknown": "Unbekannt"
 		},
 		"divider": {
 			"divider": "Divider",
@@ -178,40 +178,40 @@
 			"view_options_comment": "Set the view options to use for the files",
 			"view_query": "View Query",
 			"view_query_comment": "Set the view query to use for the files",
-			"filters": "Filters",
+			"filters": "Filter",
 			"filters_comment": "What filters to use",
 			"accept": "Accept File Types",
 			"accept_comment": "Set a list of MIME types that can be picked",
-			"allow_delete": "Allow Delete",
-			"allow_delete_comment": "Allows the user to permanently delete the related file through the file interface",
-			"crop_preview": "Crop File Preview",
-			"crop_preview_comment": "Crops the file preview to fill the available space."
+			"allow_delete": "Löschen erlauben",
+			"allow_delete_comment": "Erlaubt dem Benutzer, die zugehörige Datei über die Dateischnittstelle dauerhaft zu löschen",
+			"crop_preview": "Vorschau der Schnittdatei",
+			"crop_preview_comment": "Schneidet die Dateivorschau aus, um den verfügbaren Platz auszufüllen."
 		},
 		"file-preview": {
-			"file_preview": "File Preview",
-			"edit": "Editing Options"
+			"file_preview": "Dateivorschau",
+			"edit": "Bearbeitungsoptionen"
 		},
 		"file-size": {
-			"file_size": "File Size",
+			"file_size": "Dateigröße",
 			"placeholder": "Platzhalter",
-			"placeholder_comment": "Enter placeholder text",
-			"format": "Format value",
-			"format_comment": "Show the value in a human readable way (e.g. 10MB)",
-			"format_input": "Format input",
+			"placeholder_comment": "Platzhalter-Text eingeben",
+			"format": "Formatierungswert",
+			"format_comment": "Zeigen Sie den Wert in einer für Menschen lesbaren Form an (z.B. 10MB)",
+			"format_input": "Format-Eingabe",
 			"format_input_comment": "Enter the value using a dropdown for units",
-			"decimal": "Decimal",
-			"decimal_comment": "Show the value in decimal counting (10MB vs 10MiB)",
-			"crop_preview": "Crop Preview Images"
+			"decimal": "Dezimal",
+			"decimal_comment": "Zeigen Sie den Wert in dezimaler Zählweise an (10MB vs. 10MiB)",
+			"crop_preview": "Vorschaubilder zuschneiden"
 		},
 		"files": {
 			"files": "Dateien",
-			"visible_columns": "Visible Columns",
+			"visible_columns": "Sichtbare Spalten",
 			"visible_columns_comment": "Fügen Sie ein CSV der Spalten hinzu, die Sie als Vorschau anzeigen möchten",
 			"preferences": "Einstellungen Listenansicht",
 			"preferences_comment": "Legt fest, welche Optionen für den Dialog verwendet werden",
 			"relation_not_setup": "Die relationale Beziehung wurde nicht korrekt konfiguriert",
 			"template": "Anzeigevorlage",
-			"template_comment": "Wählen Sie, wie Werte im Bearbeitungsmodus angezeigt werden sollen",
+			"template_comment": "Wählen Sie, wie die Werte auf den Positionslayouts angezeigt werden sollen",
 			"template_placeholder": "{{movie.name}} — {{member.first_name}}",
 			"allow_create": "Erstellen erlauben",
 			"allow_create_comment": "Dem Benutzer erlauben, ein neues Element aus dieser Schnittstelle zu erstellen",
@@ -226,7 +226,7 @@
 			"hide": "Wert ausblenden",
 			"hide_comment": "Punkte anstatt der eingegebenen Zeichen anzeigen",
 			"placeholder": "Platzhalter",
-			"placeholder_comment": "Enter placeholder text",
+			"placeholder_comment": "Platzhalter-Text eingeben",
 			"show_hash": "Hash-Ausgabe anzeigen",
 			"show_hash_comment": "Gespeicherten Hash-Wert anzeigen",
 			"hashing_type": "Hashing-Typ",
@@ -284,13 +284,13 @@
 		},
 		"many-to-many": {
 			"m2m": "n:n-Beziehung",
-			"visible_columns": "Visible Columns",
+			"visible_columns": "Sichtbare Spalten",
 			"visible_columns_comment": "Fügen Sie ein CSV der Spalten hinzu, die Sie als Vorschau anzeigen möchten",
 			"preferences": "Einstellungen Listenansicht",
 			"preferences_comment": "Legt fest, welche Optionen für den Dialog verwendet werden",
 			"relation_not_setup": "Die relationale Beziehung wurde nicht korrekt konfiguriert",
 			"template": "Anzeigevorlage",
-			"template_comment": "Wählen Sie, wie Werte im Bearbeitungsmodus angezeigt werden sollen",
+			"template_comment": "Wählen Sie, wie die Werte auf den Positionslayouts angezeigt werden sollen",
 			"template_placeholder": "{{movie.name}} — {{member.first_name}}",
 			"allow_create": "Erstellen erlauben",
 			"allow_create_comment": "Dem Benutzer erlauben, ein neues Element aus dieser Schnittstelle zu erstellen",
@@ -306,24 +306,24 @@
 			"visible_fields_note": "CSV von Feldern, die bei der Auswahl eines Elements im Dialog sichtbar sind",
 			"template_placeholder": "{{title}} — {{author}}",
 			"placeholder": "Platzhalter",
-			"placeholder_comment": "Enter placeholder text",
+			"placeholder_comment": "Platzhalter-Text eingeben",
 			"preferences": "Einstellungen Listenansicht",
 			"preferences_comment": "Legt fest, welche Optionen für den Dialog verwendet werden",
 			"relationship_not_setup": "Die relationale Beziehung wurde nicht korrekt konfiguriert",
 			"icon": "Symbol",
 			"icon_comment": "Optionales Icon, für Anzeige links neben der Eingabe",
-			"select_one": "Wählen Sie eines aus",
-			"threshold": "Schwellenwert",
-			"threshold_comment": "The number of items after which a modal will be used instead of a dropdown"
+			"select_one": "Wählen Sie eine aus",
+			"threshold": "Schwelle",
+			"threshold_comment": "Anzahl der Elemente, bei denen ein Dialog anstelle eines Dropdown-Menüs verwendet wird"
 		},
 		"map": {
-			"map": "Map",
-			"choices": "choices",
+			"map": "Karte",
+			"choices": "Auswahlmöglichkeiten",
 			"choices_comment": "Geben Sie die JSON-Schlüsselwert-Paare mit dem gespeicherten Wert und dem angezeigten Text ein.",
 			"theme": "Oberflächendesign",
 			"theme_comment": "Setze das Design der Schnittstelle, falls unterstützt",
 			"value": "Wert",
-			"map_lat": "Default Latitude",
+			"map_lat": "Standard-Breitengrad",
 			"map_lat_comment": "Map will be centered at this latitude",
 			"map_lng": "Default Longitude",
 			"map_lng_comment": "Map will be centered at this longitude",
@@ -346,33 +346,33 @@
 			"markdown": "Markdown",
 			"edit": "Bearbeiten",
 			"preview": "Preview",
-			"tabbed_preview": "Tabbed Preview",
+			"tabbed_preview": "Registerkarten-Vorschau",
 			"tabbed_preview_comment": "How to display the editor and preview",
-			"tabbed_preview_on": "Tabbed Preview",
+			"tabbed_preview_on": "Registerkarten-Vorschau",
 			"tabbed_preview_off": "Side-by-side Preview",
-			"rows": "Rows",
-			"rows_comment": "The starting number of text rows available",
+			"rows": "Reihen",
+			"rows_comment": "Die Anfangsanzahl der verfügbaren Textzeilen",
 			"placeholder": "Platzhalter",
-			"placeholder_comment": "Enter placeholder text"
+			"placeholder_comment": "Platzhalter-Text eingeben"
 		},
 		"multiselect": {
-			"multiselect": "Multi-Select",
+			"multiselect": "Mehrfachauswahl",
 			"choices": "Optionen",
-			"choices_comment": "Enter JSON key value pairs with the saved value and displayed text",
+			"choices_comment": "Geben Sie JSON-Schlüsselwertpaare mit dem gespeicherten Wert und dem angezeigten Text ein",
 			"placeholder": "Platzhalter",
-			"placeholder_comment": "Enter placeholder text",
+			"placeholder_comment": "Platzhalter-Text eingeben",
 			"size": "Größe",
-			"size_comment": "Number of options visible before scrolling",
+			"size_comment": "Anzahl der vor dem Scrollen sichtbaren Optionen",
 			"option": "Option",
 			"wrap": "Mit Trennzeichen umbrechen",
-			"wrap_comment": "Wrap the values with a pair of delimiters to allow strict searching for a single value",
-			"format": "Browse Format",
+			"wrap_comment": "Verpacken Sie die Werte mit einem Begrenzungspaar, um eine genaue Suche nach einem einzelnen Wert zu ermöglichen",
+			"format": "Format durchsuchen",
 			"format_comment": "The output format on the Browse Items page"
 		},
 		"numeric": {
 			"numeric": "Numerisch",
 			"placeholder": "Platzhalter",
-			"placeholder_comment": "Enter placeholder text",
+			"placeholder_comment": "Platzhalter-Text eingeben",
 			"localized": "Lokalisiert",
 			"localized_comment": "Localize the output to the user's locale",
 			"icon_left": "Icon links",
@@ -386,7 +386,7 @@
 			"o2m": "One to Many",
 			"select_items": "Select the items",
 			"relation_not_setup": "Die relationale Beziehung wurde nicht korrekt konfiguriert",
-			"visible_columns": "Visible Columns",
+			"visible_columns": "Sichtbare Spalten",
 			"visible_columns_comment": "Fügen Sie ein CSV der Spalten hinzu, die Sie als Vorschau anzeigen möchten",
 			"preferences": "Einstellungen Listenansicht",
 			"preferences_comment": "Legt fest, welche Optionen für den Dialog verwendet werden",
@@ -407,7 +407,7 @@
 			"hide": "Wert ausblenden",
 			"hide_comment": "Punkte anstatt der eingegebenen Zeichen anzeigen",
 			"placeholder": "Platzhalter",
-			"placeholder_comment": "Enter placeholder text",
+			"placeholder_comment": "Platzhalter-Text eingeben",
 			"confirm_placeholder": "Confirm password...",
 			"show_hash": "Hash-Ausgabe anzeigen",
 			"show_hash_comment": "Gespeicherten Hash-Wert anzeigen",
@@ -431,7 +431,7 @@
 			"choices": "Optionen",
 			"choices_comment": "Geben Sie die JSON-Schlüsselwert-Paare mit dem gespeicherten Wert und dem angezeigten Text ein.",
 			"option": "Option",
-			"format": "Browse Format",
+			"format": "Format durchsuchen",
 			"format_comment": "The output format on the Browse Items page"
 		},
 		"rating": {
@@ -442,7 +442,7 @@
 			"max_stars": "Max Stars",
 			"max_stars_comment": "Number of maximum rating allowed",
 			"display": "Display",
-			"display_comment": "How to display rating values"
+			"display_comment": "Wie Bewertungswerte angezeigt werden"
 		},
 		"repeater": {
 			"repeater": "Repeater",
@@ -505,7 +505,7 @@
 			"lowercase": "Force Lowercase",
 			"lowercase_comment": "Convert all tags to lowercase",
 			"wrap": "Wrap with delimiter",
-			"wrap_comment": "Wrap the values with a pair of delimiters to allow strict searching for a single value",
+			"wrap_comment": "Verpacken Sie die Werte mit einem Begrenzungspaar, um eine genaue Suche nach einem einzelnen Wert zu ermöglichen",
 			"format": "Format Value",
 			"format_comment": "Convert the tags to Title Case when displaying the value",
 			"sanitize": "Sanitize",
@@ -543,10 +543,10 @@
 		},
 		"textarea": {
 			"textarea": "Text-Area",
-			"rows": "Rows",
+			"rows": "Reihen",
 			"rows_comment": "The number of text rows available for the input before scrolling",
 			"placeholder": "Platzhalter",
-			"placeholder_comment": "Enter placeholder text",
+			"placeholder_comment": "Platzhalter-Text eingeben",
 			"serif": "Serif Font",
 			"serif_comment": "Use a larger, serif typeface"
 		},
@@ -589,7 +589,7 @@
 			"language_field_comment": "The field that holds the language code in the related collection",
 			"languages": "Languages",
 			"template": "Anzeigevorlage",
-			"template_comment": "Wählen Sie, wie Werte im Bearbeitungsmodus angezeigt werden sollen",
+			"template_comment": "Wählen Sie, wie die Werte auf den Positionslayouts angezeigt werden sollen",
 			"template_placeholder": "{{title}} — {{body}}"
 		},
 		"user": {
@@ -610,7 +610,7 @@
 			"display": "Display",
 			"display_comment": "How to display the user on the item browse page",
 			"you": "You will be the creator",
-			"unknown": "Unknown"
+			"unknown": "Unbekannt"
 		},
 		"user-roles": {
 			"user-roles": "User Role",
@@ -628,7 +628,7 @@
 			"display": "Display",
 			"display_comment": "How to display the user on the item browse page",
 			"you": "You will be the updater",
-			"unknown": "Unknown"
+			"unknown": "Unbekannt"
 		},
 		"wysiwyg": {
 			"toolbar": "Toolbar Options",
