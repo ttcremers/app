@@ -21,15 +21,15 @@
 		},
 		"calendar": {
 			"calendar": "التقويم",
-			"min": "Minimum Date",
-			"min_comment": "Minimum date that can be chosen by the user",
-			"max": "Maximum Date",
-			"max_comment": "Maximum date that can be chosen by the user",
-			"formatting": "Date Format",
+			"min": "أقل تاريخ",
+			"min_comment": "أقل تاريخ يمكن للمستخدم إختياره",
+			"max": "أقصى تاريخ",
+			"max_comment": "أقصى تاريخ يمكن للمستخدم إختياره",
+			"formatting": "تنسيق التاريخ",
 			"formatting_comment": "Follows [Unicode Technical Standard](https://date-fns.org/v2.8.1/docs/format). If left blank, a relative date will be used."
 		},
 		"checkboxes": {
-			"checkboxes": "Checkboxes",
+			"checkboxes": "مربع الاختيار",
 			"choices": "الخيارات",
 			"choices_comment": "Enter JSON key value pairs with the saved value and text displayed.",
 			"wrap": "Wrap with Delimiter",
@@ -92,9 +92,9 @@
 		"date": {
 			"date": "Date",
 			"min": "Minimum date",
-			"min_comment": "Minimum date that can be chosen by the user",
+			"min_comment": "أقل تاريخ يمكن للمستخدم إختياره",
 			"max": "Maximum date",
-			"max_comment": "Maximum date that can be chosen by the user",
+			"max_comment": "أقصى تاريخ يمكن للمستخدم إختياره",
 			"localized": "Localized",
 			"localized_comment": "Show the date localized in the output",
 			"relative": "Show relative date",
