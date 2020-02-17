@@ -78,10 +78,10 @@
 			"include_system_comment": "Include system collections in the options"
 		},
 		"color": {
-			"color": "Color",
+			"color": "Szín",
 			"format": "Output Format",
 			"format_comment": "In what data format to save the value",
-			"palette": "Palette",
+			"palette": "Színpaletta",
 			"palette_comment": "Add color options as hex values",
 			"palette_only": "Palette Only",
 			"palette_only_comment": "Only allow the user to pick from the palette"
