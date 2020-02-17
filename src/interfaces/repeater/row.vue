@@ -46,6 +46,7 @@
 				full-width
 				:fields="fields"
 				:values="row"
+				:new-item="newItem"
 				@stage-value="$emit('input', $event)"
 			/>
 		</div>
@@ -84,6 +85,10 @@ export default {
 		}
 	},
 	computed: {
+		newItem() {
+			if (this.row.newItem === true) return true;
+			return false;
+		},
 		displayValue() {
 			if (!this.template) {
 				return this.row[this.fields[0].field];
